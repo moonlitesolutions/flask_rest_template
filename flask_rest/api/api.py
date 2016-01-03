@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from flask import Flask, request, q
+from flask import Flask, request, g
 from flask_restful import Resource, Api
 
 app = Flask(__name__)
